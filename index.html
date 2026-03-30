@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — ANDRIANINA Manda Arolala</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <script src="lucide.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <!-- ── Navigation ── -->
+  <nav>
+    <a href="#hero" class="nav-logo">Manda&nbsp;Arolala</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#experience">Parcours</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+ 
+  <!-- ── Hero ── -->
+  <section id="hero">
+    <div class="hero-blob blob-1"></div>
+    <div class="hero-blob blob-2"></div>
+    <div class="hero-blob blob-3"></div>
+    <div class="hero-inner">
+      <div class="hero-eyebrow"><i data-lucide="sparkles" style="width:13px;height:13px;display:inline-block;vertical-align:middle;margin-right:6px;"></i>Disponible pour de nouveaux projets</div>
+      <h1 class="hero-title">
+        Développeuse&nbsp;<em>Fullstack</em>
+      </h1>
+      <p class="hero-sub">
+        "Tout n'est qu'une question de motivation et de persévérance."<br><br>
+        Passionnée par le code et les interfaces, je conçois et développe des applications web et mobiles, de la base de données à l'interface utilisateur.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">Voir mes projets →</a>
+        <a href="#contact" class="btn btn-outline">Me contacter</a>
+        <a href="CV_ANDRIANINA_Manda_Arolala.pdf" download class="btn btn-download">
+          <i data-lucide="download" style="width:15px;height:15px;"></i> Télécharger mon CV
+        </a>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ── À propos ── -->
+  <section id="about">
+    <div class="about-grid reveal">
+      <div class="about-avatar">
+        <img src="./asset/photo.png" alt="Manda Arolala" />
+        <div class="avatar-placeholder">
+          <div class="avatar-icon"><i data-lucide="user-round"></i></div>
+        </div>
+      </div>
+      <div>
+        <p class="about-eyebrow">À propos de moi</p>
+        <h2 class="about-title">Développeuse Fullstack passionnée</h2>
+        <p class="about-text">
+          Bonjour ! Je suis <strong>ANDRIANINA Manda Arolala</strong>, développeuse fullstack basée à Madagascar.
+          Titulaire d'un Master 2 en Informatique à l'ENI Fianarantsoa, je conçois et développe des
+          applications complètes alliant performance technique et expérience utilisateur soignée.
+        </p>
+        <p class="about-text">
+          Mon approche mêle rigueur, créativité et curiosité — toujours à l'affût des meilleures pratiques
+          pour livrer des solutions maintenables et efficaces.
+        </p>
+        <div class="skills-list">
+          <span class="skill-tag">Vue.js</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Angular</span>
+          <span class="skill-tag">Symfony</span>
+          <span class="skill-tag">PHP</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">C# / C++</span>
+          <span class="skill-tag">Supabase</span>
+          <span class="skill-tag">SQL · PostgreSQL · MySQL</span>
+          <span class="skill-tag">HTML · CSS</span>
+          <span class="skill-tag">Figma</span>
+          <span class="skill-tag">RASA</span>
+          <span class="skill-tag">OpenAI API</span>
+          <span class="skill-tag">REST · JSON</span>
+          <span class="skill-tag">UML · Agile</span>
+          <span class="skill-tag">Tailwind</span>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ── Projets ── -->
+  <section id="projects">
+    <div class="section-header reveal">
+      <div>
+        <p class="section-eyebrow">Mes réalisations</p>
+        <h2>Projets sélectionnés</h2>
+      </div>
+    </div>
+    <div class="projects-grid">
+ 
+      <div class="project-card reveal">
+        <div class="card-thumb thumb-1"><img src="./asset/portfoliio user.png" alt="Projet 1" /></div>
+        <div class="card-body">
+          <p class="card-tag">Website</p>
+          <h3 class="card-title">Portfolio</h3>
+          <p class="card-desc">Mon portfolio personnel, conçu pour présenter mes projets et compétences de manière moderne et interactive.</p>
+          <div class="card-skills">
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Supabase</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="card-link">Voir le projet →</a>
+        </div>
+      </div>
+ 
+      <div class="project-card reveal">
+        <div class="card-thumb thumb-2"><img src="./asset/Admin portfolio.png" alt="Projet 1" /></div>
+        <div class="card-body">
+          <p class="card-tag">Application web</p>
+          <h3 class="card-title">Partie backoffice - portfolio</h3>
+          <p class="card-desc">Une interface pour voir les statistiques de mon portfolio.</p>
+          <div class="card-skills">
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Supabase</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="card-link">Voir le projet →</a>
+        </div>
+      </div>
+<!--  
+      <div class="project-card reveal">
+        <div class="card-thumb thumb-3">03</div>
+        <div class="card-body">
+          <p class="card-tag">E-commerce</p>
+          <h3 class="card-title">Studio Céramique</h3>
+          <p class="card-desc">Boutique en ligne minimaliste pour un atelier de céramique artisanale.</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="card-link">Voir le projet →</a>
+        </div>
+      </div>
+ 
+      <div class="project-card reveal">
+        <div class="card-thumb thumb-4">04</div>
+        <div class="card-body">
+          <p class="card-tag">Dashboard · SaaS</p>
+          <h3 class="card-title">DataViz Platform</h3>
+          <p class="card-desc">Interface de visualisation de données complexes rendue accessible et claire.</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="card-link">Voir le projet →</a>
+        </div>
+      </div>
+  -->
+    </div>
+  </section>
+ 
+  <!-- ── Expériences ── -->
+  <section id="experience" style="background:var(--cream); border-top:1px solid var(--peach-soft); border-bottom:1px solid var(--peach-soft);">
+    <div class="section-header reveal">
+      <div>
+        <p class="section-eyebrow">Parcours</p>
+        <h2>Expériences &amp; Formations</h2>
+      </div>
+    </div>
+    <div class="exp-grid">
+ 
+      <!-- Colonne Expériences -->
+      <div>
+        <p class="exp-col-title"><i data-lucide="briefcase"></i> Expériences professionnelles</p>
+ 
+        <div class="exp-card reveal">
+          <div class="exp-dot"></div>
+          <div class="exp-content">
+            <span class="exp-date">Août 2025 — Aujourd'hui</span>
+            <h3 class="exp-title">Développeuse Fullstack — Star</h3>
+            <p class="exp-desc">Développement d'un agent conversationnel. Maintenance et extension d'autres applications (Malto, Application fournisseur, Mouvperso).</p>
+            <div class="exp-tags">
+              <span class="skill-tag">Python</span><span class="skill-tag">RASA</span><span class="skill-tag">dotNet</span><span class="skill-tag">Angular</span><span class="skill-tag">SQL</span><span class="skill-tag">Symfony</span><span class="skill-tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="exp-card reveal">
+          <div class="exp-dot"></div>
+          <div class="exp-content">
+            <span class="exp-date">Juillet — Août 2025</span>
+            <h3 class="exp-title">Développeuse Fullstack — SK Group</h3>
+            <p class="exp-desc">Développement d'une application d'agence de voyage.</p>
+            <div class="exp-tags">
+              <span class="skill-tag">Figma</span><span class="skill-tag">Node.js</span><span class="skill-tag">Vue.js</span><span class="skill-tag">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="exp-card reveal">
+          <div class="exp-dot"></div>
+          <div class="exp-content">
+            <span class="exp-date">Septembre — Décembre 2023</span>
+            <h3 class="exp-title">Développeuse Fullstack — ABiDYS</h3>
+            <p class="exp-desc">Développement d'une application de gestion des inscriptions et paiements scolaires.</p>
+            <div class="exp-tags">
+              <span class="skill-tag">Vue.js</span><span class="skill-tag">PHP</span><span class="skill-tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="exp-card reveal">
+          <div class="exp-dot"></div>
+          <div class="exp-content">
+            <span class="exp-date">Septembre — Décembre 2022</span>
+            <h3 class="exp-title">Stage Fullstack — Oniversity FJKM Ravelojaona</h3>
+            <p class="exp-desc">Développement d'une application de gestion (bibliothèque, notes, enseignants). Collaboration avec équipes pédagogiques.</p>
+            <div class="exp-tags">
+              <span class="skill-tag">Vue.js</span><span class="skill-tag">PHP</span><span class="skill-tag">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- Colonne Formations -->
+      <div>
+        <p class="exp-col-title"><i data-lucide="graduation-cap"></i> Formations</p>
+ 
+        <div class="exp-card reveal">
+          <div class="exp-dot exp-dot--edu"></div>
+          <div class="exp-content">
+            <span class="exp-date">2024 — 2025</span>
+            <h3 class="exp-title">Master 2 Informatique — ENI Fianarantsoa</h3>
+            <p class="exp-desc">Développement logiciel avancé, systèmes d'information. Agile, conception d'applications maintenables.</p>
+          </div>
+        </div>
+ 
+        <div class="exp-card reveal">
+          <div class="exp-dot exp-dot--edu"></div>
+          <div class="exp-content">
+            <span class="exp-date">2022 — 2023</span>
+            <h3 class="exp-title">Licence en Informatique — ENI Fianarantsoa</h3>
+            <p class="exp-desc">Développement web, mobile, desktop. UML, UX/UI, Figma, HTML/CSS, JavaScript, PHP, C/C++, C#, Java, Python.</p>
+          </div>
+        </div>
+ 
+        <p class="exp-col-title" style="margin-top:2.5rem;"><i data-lucide="heart"></i> Autres activités</p>
+ 
+        <div class="exp-card reveal">
+          <div class="exp-dot exp-dot--other"></div>
+          <div class="exp-content">
+            <span class="exp-date">2020 — 2025</span>
+            <h3 class="exp-title">Mentor — CoderDojo Fianarantsoa</h3>
+            <p class="exp-desc">Bénévolat : initiation à la programmation pour jeunes.</p>
+          </div>
+        </div>
+ 
+        <div class="exp-card reveal">
+          <div class="exp-dot exp-dot--other"></div>
+          <div class="exp-content">
+            <span class="exp-date">2022 — 2025</span>
+            <h3 class="exp-title">Photographe bénévole — ARTCENI (Art club ENI)</h3>
+            <p class="exp-desc">Membre active du club artistique de l'ENI.</p>
+          </div>
+        </div>
+ 
+        <p class="exp-col-title" style="margin-top:2.5rem;"><i data-lucide="languages"></i> Langues</p>
+        <div class="lang-list reveal">
+          <div class="lang-item">
+            <span class="lang-name">Malgache</span>
+            <span class="lang-level lang-native">Langue maternelle</span>
+          </div>
+          <div class="lang-item">
+            <span class="lang-name">Français</span>
+            <span class="lang-level lang-fluent">Courant</span>
+          </div>
+          <div class="lang-item">
+            <span class="lang-name">Anglais</span>
+            <span class="lang-level lang-inter">Intermédiaire</span>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+ 
+  <!-- ── Services ── -->
+  <section id="services">
+    <div class="section-header reveal">
+      <div>
+        <p class="section-eyebrow">Ce que je fais</p>
+        <h2>Mes services</h2>
+      </div>
+    </div>
+    <div class="services-grid">
+ 
+      <div class="service-card reveal">
+        <div class="service-icon"><i data-lucide="code-2"></i></div>
+        <h3 class="service-title">Développement Web</h3>
+        <p class="service-desc">Applications web fullstack avec Vue.js, React, Angular, Node.js, PHP/Symfony — du front au back.</p>
+      </div>
+ 
+      <div class="service-card reveal">
+        <div class="service-icon"><i data-lucide="smartphone"></i></div>
+        <h3 class="service-title">Applications Mobile &amp; Desktop</h3>
+        <p class="service-desc">Conception et développement d'applications mobiles et desktop performantes et maintenables.</p>
+      </div>
+ 
+      <div class="service-card reveal">
+        <div class="service-icon"><i data-lucide="bot"></i></div>
+        <h3 class="service-title">Agents Conversationnels</h3>
+        <p class="service-desc">Développement de chatbots et agents IA avec RASA, Python et intégration d'APIs OpenAI.</p>
+      </div>
+ 
+      <div class="service-card reveal">
+        <div class="service-icon"><i data-lucide="database"></i></div>
+        <h3 class="service-title">Base de données &amp; API</h3>
+        <p class="service-desc">Conception de bases de données (PostgreSQL, MySQL), développement d'APIs REST robustes et documentées.</p>
+      </div>
+ 
+    </div>
+  </section>
+ 
+  <!-- ── Contact ── -->
+  <section id="contact">
+    <div class="contact-wrap reveal">
+      <p class="section-eyebrow" style="text-align:center; margin-bottom:0.6rem;">Travaillons ensemble</p>
+      <h2>Démarrons un projet</h2>
+      <p>Une idée ? Un projet ? Je suis disponible et réactive. Envoyez-moi un message, je vous réponds rapidement.</p>
+ 
+      <div class="contact-info-row">
+        <a href="mailto:mandaarolalaa@gmail.com" class="contact-info-item">
+          <i data-lucide="mail"></i>
+          mandaarolalaa@gmail.com
+        </a>
+        <a href="tel:+261333477548" class="contact-info-item">
+          <i data-lucide="phone"></i>
+          +261 33 34 775 48
+        </a>
+        <a href="https://github.com/MandaArolala3118" target="_blank" class="contact-info-item">
+          <i data-lucide="github"></i>
+          MandaArolala3118
+        </a>
+        <a href="https://www.linkedin.com/in/manda-arolala-andrianina" target="_blank" class="contact-info-item">
+          <i data-lucide="linkedin"></i>
+          Manda Arolala Andrianina
+        </a>
+      </div>
+ 
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Nom</label>
+            <input type="text" id="name" placeholder="Votre nom" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="votre@email.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Sujet</label>
+          <input type="text" id="subject" placeholder="De quoi s'agit-il ?" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Décrivez votre projet en quelques mots…" required></textarea>
+        </div>
+        <div class="form-submit">
+          <button type="submit" class="btn btn-primary" id="submit-btn">
+            Envoyer le message <i data-lucide="send" style="width:15px;height:15px;margin-left:4px;"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+ 
+  <!-- ── CV Download ── -->
+  <section id="cv" class="cv-section">
+    <div class="cv-inner reveal">
+      <div class="cv-blob cv-blob-1"></div>
+      <div class="cv-blob cv-blob-2"></div>
+      <div class="cv-text">
+        <p class="cv-eyebrow"><i data-lucide="file-text"></i> Mon CV</p>
+        <h2 class="cv-title">Consultez mon curriculum<br><em>vitae complet</em></h2>
+        <p class="cv-sub">Toutes mes formations, expériences, compétences et activités réunies en un seul document.</p>
+      </div>
+      <div class="cv-actions">
+        <a href="CV_ANDRIANINA_Manda_Arolala.pdf" download class="btn btn-cv-main">
+          <i data-lucide="download"></i>
+          Télécharger le CV
+        </a>
+        <a href="CV_ANDRIANINA_Manda_Arolala.pdf" target="_blank" class="btn btn-cv-view">
+          <i data-lucide="eye"></i>
+          Aperçu
+        </a>
+      </div>
+      <div class="cv-meta">
+        <span class="cv-meta-item"><i data-lucide="file"></i> PDF · FR</span>
+        <span class="cv-meta-item"><i data-lucide="refresh-cw"></i> Mis à jour 2025</span>
+        <span class="cv-meta-item"><i data-lucide="user"></i> ANDRIANINA Manda Arolala</span>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ── Footer ── -->
+  <footer>
+    <a href="#hero" class="footer-logo">Manda Arolala</a>
+    <p class="footer-copy">© 2025 — ANDRIANINA Manda Arolala</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/manda-arolala-andrianina" target="_blank" class="social-link" title="LinkedIn"><i data-lucide="linkedin"></i></a>
+      <a href="https://github.com/MandaArolala3118" target="_blank" class="social-link" title="GitHub"><i data-lucide="github"></i></a>
+      <a href="mailto:mandaarolalaa@gmail.com" class="social-link" title="Email"><i data-lucide="mail"></i></a>
+    </div>
+  </footer>
+  <!-- ── Scripts ── -->
+  <script src="action.js"></script>
+  <script>lucide.createIcons();</script>
+
+</body>
+</html>
