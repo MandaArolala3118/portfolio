@@ -104,13 +104,13 @@ async function handleSubmit(e) {
       throw new Error(msg);
     }
 
-    btn.innerHTML        = 'Message envoyé ✓';
-    btn.style.background = '#6BAA75';
+    btn.classList.add('btn-success');
+    btn.innerHTML = 'Message envoyé ✓';
 
     setTimeout(() => {
-      btn.innerHTML        = 'Envoyer le message <i data-lucide="send" style="width:15px;height:15px;margin-left:4px;"></i>';
-      btn.style.background = '';
-      btn.disabled         = false;
+      btn.classList.remove('btn-success');
+      btn.innerHTML = 'Envoyer le message <i data-lucide="send" style="width:15px;height:15px;margin-left:4px;"></i>';
+      btn.disabled = false;
       lucide.createIcons();
       e.target.reset();
     }, 3500);

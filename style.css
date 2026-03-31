@@ -245,6 +245,24 @@ section { padding: 5rem 5vw; }
   transform: translateY(-2px);
   box-shadow: 0 8px 28px rgba(224,122,82,0.45);
 }
+/* ── Success state for submit button ── */
+.btn-success {
+  background: #6BAA75 !important;
+  color: #fff !important;
+  box-shadow: 0 4px 20px rgba(107,170,117,0.35) !important;
+  animation: successPulse 0.6s ease-out;
+}
+
+.btn-success:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(107,170,117,0.45) !important;
+}
+
+@keyframes successPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
 .btn-outline {
   background: transparent;
   border: 1.5px solid var(--peach-warm);
