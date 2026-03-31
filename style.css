@@ -745,7 +745,7 @@ footer {
   section { padding: 3.5rem 4vw; }
 
   #hero {
-    padding-top: 80px;
+    padding-top: 100px;
     padding-left: 5vw;
     padding-right: 5vw;
     align-items: flex-start;
@@ -827,7 +827,7 @@ footer {
   h2 { font-size: clamp(1.2rem, 7vw, 1.6rem); }
   h3 { font-size: 1.05rem; }
 
-  #hero { padding-top: 70px; }
+  #hero { padding-top: 90px; }
 
   .hero-eyebrow { font-size: 0.65rem; letter-spacing: 0.08em; }
   .hero-sub { font-size: 0.88rem; }
